@@ -10,6 +10,7 @@
 #define PC_ERR_ERRORDETECTOR_H
 
 #include <string>
+#include <cstdint>
 
 namespace PolarCode {
 namespace ErrorDetection {
