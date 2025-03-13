@@ -6,10 +6,7 @@ scheme named "Polar Codes". A very promising group of codes that have low
 encoding and decoding latency with high BLER-performance.
 
 ## Installation
-This should be straight forward, given that you have a recent compiler (GCC).
-
-You need to clone the repo with the `--recursive` option to ensure that the `pybind11` submodule is checked out as well.
-`git clone --recursive`
+This should be straightforward, given that you have a recent compiler (GCC).
 
 ### Dependencies
 Before compiling this project the following packages need to be installed
@@ -23,6 +20,7 @@ on your system:
 - libfmt-dev
 - python3-numpy
 - python3-scipy
+- python3-pybind11
 
 ### The install commands
 ```
